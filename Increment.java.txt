@@ -1,0 +1,15 @@
+public class Increment{
+    public static void main(String as[])
+    {
+    int num=10;
+    num++;      //both post and pre increment/decrement differs by fetching the value.here it is one operation only.so it performs addition.
+    System.out.println(num);
+    int ans =22;
+    int res=ans++;  //but here there are two operators so it performs assignment only and then it fetches the result.(priority)
+    System.out.println(res);
+    int x=10;
+    int y=++x;   //here the pre operator performs the addition first then only it fetches the result.
+    System.out.println(y);
+
+    }
+}
